@@ -1,0 +1,55 @@
+body {
+    background-image: url("https://media.giphy.com/media/vpIXwBD5kbU8InNZhf/giphy.gif");
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+#header {
+    display: flex;
+    margin-top: 22%;
+
+}
+
+#logo-container {
+    width: 47%;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-sections-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 53%;
+}
+
+#home {
+    width: 69%;
+    height: 14vh;
+    cursor: pointer;
+    background-color: transparent;
+    border-style: none;
+}
+
+.section-button {
+    /* width: 20%; */
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+}
+
+#work {
+    width: 20%;
+}
+
+#contact {
+    width: 30%;
+}
+
+#about {
+    width: 25%;
+}
