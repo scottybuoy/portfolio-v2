@@ -38,7 +38,7 @@ body {
 .section-button {
     /* width: 20%; */
     background-color: transparent;
-    border-style: none;
+     border-style: none;
     cursor: pointer;
 }
 
@@ -52,4 +52,62 @@ body {
 
 #about {
     width: 25%;
+}
+
+#work-section {
+    margin-top: 40%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(51, 83, 91);;
+}
+
+#copy {
+    width: 50%;
+}
+
+#work-title {
+    font-family: 'Playfair Display', serif;
+    color: rgb(61, 93, 95);
+    font-size: 70px;
+    text-align: right;
+    background-color: rgb(168, 189, 192);
+    padding-right: 20px;
+    border-radius: 0px 6px 6px 0px;
+    margin: auto;
+}
+
+#work-copy {
+    font-family: sans-serif;
+    color: rgb(168, 189, 192);
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 20px;
+    font-size: 19px;
+}
+
+.work-pic {
+    width: 25%;
+    border-radius: 10px;
+    -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+    filter: blur(1px);
+    opacity: .5;
+    
+}
+
+#work-images {
+    width: 50%;
+}
+
+.work-module {
+    display: flex;
+    padding-left: 50px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.work-description {
+    color: rgb(168, 189, 192);
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-left: 30px;
 }
